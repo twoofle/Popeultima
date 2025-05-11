@@ -41,6 +41,7 @@
     "autofix": "eslint . --fix",
     "test-spec": "tap --allow-incomplete-coverage test/*spec.js",
     "test-perf": "node test/performance.js"
+    "start": "node examples/basic/index.js"
   },
   "license": "AGPL-3.0",
   "main": "lib/unblocker.js",
